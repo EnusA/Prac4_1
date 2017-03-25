@@ -16,9 +16,9 @@ public class AppTest  {
         assertNotNull("Should be not null", mark.getStudentNo());
     }
     public void createLecturer(){
-        Student mark = new Student("Taylor", "Jones", 35, "tjones@gmail.com",
+        Lecturer taylor = new Lecturer("Taylor", "Jones", 35, "tjones@gmail.com",
                 "23564", "ND IT");
-        assertNotNull("Should be not null", mark.getStudentNo());
+        assertNotNull("Should be not null",taylor.getLecturerId());
     }
 
 }

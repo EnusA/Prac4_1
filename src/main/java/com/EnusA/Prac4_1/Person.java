@@ -5,11 +5,11 @@ package com.EnusA.Prac4_1;
  */
 public class Person {
     //AE
-    protected String name;
-    protected String surname;
-    protected int age;
-    protected String email;
-    protected String info;
+    private String name;
+    private String surname;
+    private int age;
+    private String email;
+    public String info;
 
     public Person(String nm, String snm, int ag, String mail){
         name = nm;
