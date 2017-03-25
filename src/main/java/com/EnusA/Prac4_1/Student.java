@@ -13,6 +13,7 @@ public class Student extends Person{
         super(nm, snm, ag, mail);
                 studentNo = studNo;
                 course = crs;
+        myString();
     }
 
     public void setStudentNo(String studNo){studentNo = studNo;}
