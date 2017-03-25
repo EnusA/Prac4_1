@@ -13,11 +13,15 @@ public class Lecturer extends Person {
         super(nm, snm, a, mail);
         lecturerId = lecId;
         subject = sub;
+        myString();
     }
 
     public void setLecturerId(String lecID){lecturerId = lecID;}
     public void setSubject(String sub){subject = sub;}
     public String getLecturerId(){return lecturerId;}
     public String getSubject(){return subject;}
-
+    public String display()
+    {
+        return (info + "\nLecturer ID: " + lecturerId + "\nSubject: " + subject);
+    }
 }
